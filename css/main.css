@@ -35,7 +35,7 @@ header{
     height: 50px;
 
     /*DEBUG*/
-    /*background-color: aqua;/*
+    /*background-color: aqua;*/
 }
 
 .logo{
@@ -142,8 +142,59 @@ footer{
 /*Tablet*/
 
 @media screen and (max-width: 1020px){
-    
+    .contenitore{
+    width: 90%;
+}
+
+
+.col_sx{
+    width: 100%;
+}
+
+.col_dx{
+    padding: 20px;
+    width: 100%;
 
 }
 
+.row{
+    display: block;
+    height: 3600px;
+}
+
+.col_sx img{
+    height: 510px;
+}
+}
+
 /*Smartphone*/
+
+@media screen and (max-width: 641px){
+
+.logo{
+    /*Regole Flex*/
+    justify-content: center;
+    margin-bottom: 20px;
+
+    
+    color: #FF9613;
+    font-family: Nerko One, Arial, Helvetica, sans-serif;
+    padding: 20px;
+    font-size: 48px; 
+}
+
+.col_sx img{
+    height: 320px;
+}
+
+.none{
+    display: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+
+
+}
