@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+
+
 /*Paragrafi*/
 
 p{
@@ -54,7 +56,8 @@ hr{
 }
 
 button{
-    text-align: center;
+    display: inline-flex;
+    align-items: center;
     border: 0px;
     box-shadow: 2px;
     border-radius: 20px;
@@ -114,7 +117,7 @@ main{
     display: flex;
 
     margin-top:20px;
-    height: 360px;
+    height: 315px;
 }
 
 .col_sx{
@@ -123,7 +126,7 @@ main{
 
 .col_dx{
     padding: 20px;
-    width: 30%;
+    width: 46%;
     background-color: rgb(255, 255, 255);
 }
 
@@ -145,6 +148,7 @@ main{
 }
 
 .social span{
+
     font-weight: 700;
 }
 
@@ -223,12 +227,12 @@ footer{
 
 .col_sx{
     width: 100%;
+    height: 514px;
 }
 
 .col_dx{
     padding: 20px;
     width: 100%;
-
 }
 
 .row{
@@ -239,6 +243,12 @@ footer{
 .col_sx img{
     height: 510px;
 }
+
+iframe{
+  width: 100%;
+  height: 515px;
+}
+
 .social span{
     display: none;
     font-weight: 700;
@@ -285,6 +295,16 @@ p{
     /*Regole Flex*/
     justify-content: center;
     font-size: 54px; 
+}
+
+.col_sx{
+    height: 321px;
+    margin: 0
+}
+
+iframe{
+  width: 100%;
+  height: 320px;
 }
 
 .col_sx img{
