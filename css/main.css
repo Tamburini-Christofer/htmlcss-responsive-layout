@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+i{
+    display: inlin;
+}
+
 h1
 {
     font-size: 40px;
@@ -20,6 +24,14 @@ h3{
 h4{
     padding-top: 20px;
     color: grey;
+}
+
+button{
+    
+    border: 0px;
+    box-shadow: 2px;
+    border-radius: 10px;
+    padding: 4px 50px;
 }
 
 /*Body*/
@@ -96,9 +108,12 @@ main{
  /*Sezione social*/
 
 .social{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         /*DEBUG*/
         height: 100px;
-        background-color: rgb(95, 109, 160);
+        /*background-color: rgb(95, 109, 160);*/
 }
 
  /*Sezione pubblicità*/  
