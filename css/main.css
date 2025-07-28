@@ -223,9 +223,43 @@ footer{
 .col_sx img{
     height: 510px;
 }
+.social span{
+    display: none;
+    font-weight: 700;
+}
+button{
+
+    padding: 10px 70px;
+}
+.social{
+        margin:5px 0;
+
 }
 
+p{
+    padding-bottom: 30PX;
+    font-size: 18px;
+    line-height: 30px;
+}
 
+.contenitore_footer{
+    flex-direction: column;
+
+    font-size: 14px;
+    padding: 20px;
+}
+
+.contenitore_footer div{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social img{
+    width: 30px;
+    height:30px;
+}
+
+}
 
 /*Smartphone*/
 
@@ -247,6 +281,7 @@ footer{
     height: 320px;
 }
 
+
 .none{
     display: none;
 }
@@ -254,5 +289,7 @@ footer{
 h1{
     font-size: 30px;
 }
+
+
 
 }
