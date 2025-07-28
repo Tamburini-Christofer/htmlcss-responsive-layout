@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+p{
+    line-height: 22px;
+}
+
 a{
     color: white;
     margin: 0px 10px;
@@ -33,6 +37,7 @@ h4{
 }
 
 button{
+    text-align: center;
     border: 0px;
     box-shadow: 2px;
     border-radius: 20px;
@@ -49,7 +54,7 @@ body{
 /*header*/
 
 header{
-    height: 50px;
+    height: 10px;
 
     /*DEBUG*/
     /*background-color: aqua;*/
@@ -62,8 +67,8 @@ header{
 
     color: #FF9613;
     font-family: Nerko One, Arial, Helvetica, sans-serif;
-    padding: 20px;
-    font-size: 34px; 
+    padding: 0px 0px 20px 20px;
+    font-size: 50px; 
 }
 
 /*main*/
@@ -107,7 +112,8 @@ main{
 }
 
 .col_dx div{
-    margin-top: 18px;
+    font-size: 14px;
+    margin-top: 15px;
 }
 
  /*Sezione social*/
@@ -117,9 +123,19 @@ main{
         justify-content: space-between;
         align-items: center;
 
-        margin:30px 0;
+        margin:20px 0;
         /*DEBUG*/
         /*background-color: rgb(95, 109, 160);*/
+}
+
+.social span{
+    font-weight: 700;
+}
+
+.social a{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .social img{
@@ -135,6 +151,10 @@ main{
         /*background-color: blanchedalmond;*/
 }
 
+.banner a{
+    margin: 0;
+}
+
 .banner img{
     width: 100%;
 }
@@ -147,8 +167,8 @@ main{
         /*background-color: rgb(255, 153, 0);*/
 }
 p img{
-        margin: 0 10px 10px 0;
-        height: 140px;
+        margin: 0 10px 5px 0;
+        height: 160px;
         float: left;
 }
 
@@ -169,6 +189,13 @@ footer{
     padding: 20px;
 }
 
+.contenitore_footer div span{
+    margin-top: 10px;
+}
+
+
+/*-------------------------------------------------------*/
+
 /*Responsive*/
 
 /*Tablet*/
@@ -177,7 +204,6 @@ footer{
     .contenitore{
     width: 90%;
 }
-
 
 .col_sx{
     width: 100%;
