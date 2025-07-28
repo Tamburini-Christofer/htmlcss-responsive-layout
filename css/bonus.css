@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
 /*Paragrafi*/
 
 p{
@@ -30,6 +28,7 @@ a{
 
 h1
 {
+    font-weight: 700;
     font-size: 40px;
     color: #4E3969;
     display: inline;
@@ -41,11 +40,11 @@ h2{
 
 
 h3{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 h4{
-    padding-top: 20px;
+    padding-top: 40px;
     color: grey;
 }
 
@@ -56,12 +55,14 @@ hr{
 }
 
 button{
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
     display: inline-flex;
     align-items: center;
     border: 0px;
     box-shadow: 2px;
     border-radius: 20px;
-    padding: 10px 50px;
+    padding: 10px 47px;
 }
 
 /*Body*/
@@ -187,7 +188,7 @@ main{
         /*background-color: rgb(255, 153, 0);*/
 }
 p img{
-        margin: 0 10px 5px 0;
+        margin: 9px 10px 5px 0;
         height: 160px;
         float: left;
 }
@@ -237,7 +238,21 @@ footer{
 
 .row{
     display: block;
-    height: 780px;
+    height: 730px;
+}
+
+.col_dx div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    font-size: 14px;
+    margin-top: 33px;
+    padding-bottom:6px
+}
+
+#in_breve{
+    margin: 0;
+    width: 100%;
 }
 
 .col_sx img{
