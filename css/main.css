@@ -6,6 +6,22 @@
     box-sizing: border-box;
 }
 
+h1
+{
+    font-size: 40px;
+    color: #4E3969;
+    display: inline;
+}
+
+h3{
+    margin-bottom: 40px;
+}
+
+h4{
+    padding-top: 20px;
+    color: grey;
+}
+
 /*Body*/
 
 body{
@@ -16,14 +32,15 @@ body{
 /*header*/
 
 header{
-    height: 70px;
-    background-color: aqua;
+    height: 50px;
+
+    /*DEBUG*/
+    /*background-color: aqua;/*
 }
 
 .logo{
     /*Regole Flex*/
     display: flex;
-    align-items: center;
     justify-content: flex-start;
 
     color: #FF9613;
@@ -34,37 +51,46 @@ header{
 
 /*main*/
 
+main{
+    background-color:#cbcbcba0 ;
+}
+
 .contenitore{
     width: 70%;
     margin: 40px auto;
 
     /*DEBUG*/
     min-height: 1000px;
-    background-color: brown;
+    /*background-color: brown;*/
 }
 
 /*Sezione video*/
+
+.col_sx img{
+    height: 100%;
+}
 
 .row{
     /*Regole Flex*/
     display: flex;
 
+    margin-top:20px;
+    height: 360px;
+
 }
 
 .col_sx{
-    width: 60%;
-
- /*DEBUG*/
-    min-height: 300px;
-    background-color: rgb(158, 95, 160);
+    width: 70%;
 }
 
 .col_dx{
-    width: 40%;
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+}
 
-    /*DEBUG*/
-    min-height: 300px;
-    background-color: cadetblue;
+.col_dx div{
+    margin-top: 18px;
 }
 
  /*Sezione social*/
@@ -114,5 +140,10 @@ footer{
 /*Responsive*/
 
 /*Tablet*/
+
+@media screen and (max-width: 1020px){
+    
+
+}
 
 /*Smartphone*/
