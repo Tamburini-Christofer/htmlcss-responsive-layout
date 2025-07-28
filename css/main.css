@@ -6,10 +6,16 @@
     box-sizing: border-box;
 }
 
-i{
-    display: inlin;
+a{
+    color: white;
+    margin: 0px 10px;
 }
 
+hr{
+    margin: 15px 0;
+    color: #FF9613;
+    width: 5%;
+}
 h1
 {
     font-size: 40px;
@@ -27,11 +33,10 @@ h4{
 }
 
 button{
-    
     border: 0px;
     box-shadow: 2px;
-    border-radius: 10px;
-    padding: 4px 50px;
+    border-radius: 20px;
+    padding: 10px 50px;
 }
 
 /*Body*/
@@ -69,7 +74,8 @@ main{
 
 .contenitore{
     width: 70%;
-    margin: 40px auto;
+    margin: 0px auto;
+    margin-top: 40px;
 
     /*DEBUG*/
     min-height: 1000px;
@@ -88,7 +94,6 @@ main{
 
     margin-top:20px;
     height: 360px;
-
 }
 
 .col_sx{
@@ -111,35 +116,46 @@ main{
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        margin:30px 0;
         /*DEBUG*/
-        height: 100px;
         /*background-color: rgb(95, 109, 160);*/
+}
+
+.social img{
+    width:20px;
+    height:20px;
 }
 
  /*Sezione pubblicità*/  
 
 .banner{
+        margin:20px 0 ;
          /*DEBUG*/
-        height: 100px;
-        background-color: blanchedalmond;
+        /*background-color: blanchedalmond;*/
+}
+
+.banner img{
+    width: 100%;
 }
 
  /*Sezione articolo*/
 
 .articolo{
         /*DEBUG*/
-        height: 400px;
-        background-color: rgb(255, 153, 0);
+        /*height: 400px;*/
+        /*background-color: rgb(255, 153, 0);*/
 }
-.img_sx_float{
+p img{
+        margin: 0 10px 10px 0;
+        height: 140px;
         float: left;
 }
 
 /*footer*/
 
 footer{
-    height: 70px;
-    background-color: rgb(30, 0, 255);
+    background-color: #7C69A4;
 }
 
 .contenitore_footer{
@@ -148,6 +164,7 @@ footer{
     justify-content: space-between;
     align-items: center;
 
+    font-size: 10px;
     color: white;
     padding: 20px;
 }
@@ -174,13 +191,15 @@ footer{
 
 .row{
     display: block;
-    height: 3600px;
+    height: 780px;
 }
 
 .col_sx img{
     height: 510px;
 }
 }
+
+
 
 /*Smartphone*/
 
@@ -209,7 +228,5 @@ footer{
 h1{
     font-size: 30px;
 }
-
-
 
 }
