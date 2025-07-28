@@ -60,7 +60,6 @@ button{
     display: inline-flex;
     align-items: center;
     border: 0px;
-    box-shadow: 2px;
     border-radius: 20px;
     padding: 10px 47px;
 }
@@ -336,7 +335,7 @@ h1{
 
 .row{
     display: block;
-    height: 580px;
+    height: 618px;
 }
 
 button{
@@ -370,6 +369,23 @@ a{
 
     font-size: 14px;
     padding: 20px;
+}
+
+.col_dx{
+    display:block;
+    padding: 20px;
+    width: 100%;
+}
+
+#in_breve{
+    margin: 0;
+    width: 100%;
+}
+
+.col_dx div{
+    display: block;
+    font-size: 14px;
+    margin-top: 15px;
 }
 
 }
